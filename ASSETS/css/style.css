@@ -1,10 +1,31 @@
 .choice {
-    border: 1px solid lightgrey;
+    border: 3px solid black;
     padding: 10px;
     border-radius: 4px;
     cursor: pointer;
+    background-color: aliceblue;
 }
 
 body {
-    /* background-image: url('../images/backgroundjs.jpg'); */
+     background-image: url('../images/backgroundjs.png');
+     background-repeat: no-repeat;
+     background-size: cover;
+     color:black;
+     
+}
+
+h1 {
+    font-size: 50px;
+    border: 2px solid royalblue;
+    background-color: beige;
+}
+
+.jumbotron {
+    text-align: center;
+    background-color: #fee54d;
+    border: 3px solid brown;
+}
+
+#time {
+    color: red;
 }
